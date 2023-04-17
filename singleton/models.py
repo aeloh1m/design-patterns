@@ -18,5 +18,5 @@ class SingletonModel (models.Model):
 
 class Settings(SingletonModel):
 
-    hours = models.IntegerField()
-    days = models.CharField(max_length=30)
+    drone_usage_hours_by_day = models.IntegerField()
+    drone_usage_days = models.CharField(max_length=30)
